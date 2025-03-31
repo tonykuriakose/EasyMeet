@@ -29,7 +29,7 @@ const Wrapper = styled("div")({
 const App = () => {
   return (
     <Wrapper>
-      <StyledAppBar position="static" color="inherit">
+      <StyledAppBar position="static" color="success">
         <Typography variant="h2" align="center">
           Video Chat
         </Typography>
@@ -45,3 +45,4 @@ const App = () => {
 };
 
 export default App;
+
